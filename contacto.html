@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio JAR</title>
+    </head>
+    <body>
+        <header class="head">
+            <h1>Judit Alcaide Rubireta</h1>
+            <nav>
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="#sobreMi">Sobre mí</a>
+                    </li>
+                    <li>
+                        <a href="#proyectos">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="#certificados">Certificados</a>
+                    </li>
+                    <li>
+                        <a href="#habilidades">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html" target="_blank">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactar conmigo aquí:</p>
+            <section class="contactoImg" aria-label="Opciones de Contacto">
+                <a href="https://github.com/JuditAlcaide" target="_blank">
+                    <img src="https://i.postimg.cc/0jw7RGBb/github.png" alt="Icono de GitHub">
+                </a>
+                <img src="https://i.postimg.cc/m2TrGNqJ/mail.png" id="emailBtn" alt="Icono de Email" style="cursor: pointer;">
+                <img src="https://i.postimg.cc/bvbs69Jr/telf.png" id="telfBtn" alt="Icono de Teléfono" style="cursor: pointer;">
+                <div class="popupWrap">
+                    <div id="mailPopup" style="display: none;">
+                        <div class="popupContent">
+                            <span class="closePopUp" aria-label="Cerrar ventana de email">&times;</span>
+                            <p><strong>Email:</strong>juditalcaideru@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div id="telfPopup" style="display: none;">
+                        <div class="popupContent">
+                            <span class="closePopUp" aria-label="Cerrar ventana de teléfono">&times;</span>
+                            <p><strong>Teléfono:</strong>+34 692 25 33 38</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
