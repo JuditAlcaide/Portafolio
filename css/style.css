@@ -1,0 +1,245 @@
+body {
+    background: linear-gradient(45deg, #EBDFFF, #F6EFFF, #FFFFFF);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Nunito sans', 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(154, 99, 233, 0.6);
+    color: #4F265F;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+    background: linear-gradient(45deg, #D7BBF8, #D3B8FF);
+    border: 3px dashed #F1E1A6;
+    box-shadow: 0 0 10px #F1E1A6;
+    padding: 10px 10px;
+    margin: 20px 15px;
+} 
+
+h3 {
+    font-size: 24px;
+    background-color: #D4ADF5;
+    border-radius: 10px;
+    border: 3px double #FFD700;
+    box-shadow: 0 0 10px, #FFD700;
+}
+
+p {
+    font-family: 'Jura', 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+a {
+    font-family: 'Jura', 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-align: center;
+    margin: 15px 20px;
+}
+
+.breadcrumb > li {
+    display: inline;
+    color: #691378;
+}
+
+.breadcrumb li+li::before {
+    padding: 10px;
+    content: "|";
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 10px;
+    color: #691378;
+}
+
+.breadcrumb a:visited {
+    color: #691378;
+}
+
+.containerSM {
+    display: flex;
+    margin: 15px 20px;
+}
+
+.containerSM p {
+    width: 100%;
+    margin: 25px 20px;
+    padding: 15px 20px;
+}
+
+.containerSM img {
+    border-radius: 10px;
+    max-width: 80%;
+    height: auto;
+    margin: 0 20px;
+    padding: 0;
+}
+
+#proyectos {
+    margin-top: 15px;
+}
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.projectsContainer h3 {
+    margin: 15px auto;
+    padding: 10px 20px;
+}
+
+.projectsContainer p {
+    width: 80%;
+    margin: 10px auto;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.projectGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.projectGallery img {
+    border-radius: 10px;
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px auto;
+    transition: transform 0.3 ease;
+}
+
+.projectGallery img:hover {
+    transform: scale(1.1);
+}
+
+.mball, .caos, .mammaMia {
+    background: linear-gradient(45deg, #F4E1FF, #EFDFFF, #FDF9FF);
+    border: 5px outset #8E44AD;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.mball a, .caos a, .mammaMia a {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #892CBF;
+    border: 3px double #5A007B;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 40%;
+    transition: transform 0.3 ease-in-out;
+}
+
+.mball a:hover, .caos a:hover, .mammaMia a:hover {
+    background-color: #A400F0;
+    transform: scale(1.05)
+}
+
+.certificadosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 15px 0;
+}
+
+.htmlC, .css1, .css2, .javas1, .javas2, .biw, .git {
+    text-align: center;
+    justify-content: center;
+    width: 22%;
+    height: auto;
+    min-height: 250px;
+    border: 5px outset #691378;
+    border-radius: 10px;
+    padding: 15px 20px 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: #E0CDF5;
+}
+
+.htmlC h3, .css1 h3, .css2 h3, .javas1 h3, .javas2 h3, .biw h3, .git h3 {
+    min-height: 30px;
+    font-weight: bolder;
+    background-color: #D4ADF5;
+}
+
+.biw h3 {
+    margin-top: 10px;
+}
+
+.htmlC p, .css1 p, .css2 p, .javas1 p, .javas2 p, .biw p, .git p {
+    min-height: 60px;
+}
+
+.certbtn {
+    color: #FFFFFF;
+    background-color: #9B499C;
+    border-radius: 10px;
+    border: 5px groove #9B4D96;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.certbtn:hover {
+    background-color: #B330B5;
+    transform: translateY(-5px);
+}
+
+.imgSkills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px auto;
+}
+
+.imgSkills img {
+    width: 150px;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border: 10px;
+}
