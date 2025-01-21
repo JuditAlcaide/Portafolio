@@ -243,3 +243,49 @@ a {
     object-fit: cover;
     border: 10px;
 }
+
+.contacto a {
+    text-decoration: none;
+}
+
+.contactoImg {
+    text-align: center;
+}
+
+.contactoImg img {
+    max-width: 350px;
+    max-height: 300px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contactoImg img:hover {
+    transform: scale(1.1);
+}
+
+.popupContent {
+    position: relative;
+    padding: 15px 20px;
+    background: linear-gradient(45deg, #D7BBF8, #D3B8FF);
+    font-size: 26px;
+    border-radius: 10px;
+    border: 5px groove #691378;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 15px 10px;
+}
+
+.closePopUp {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: #691378;
+    font-weight: bolder;
+}
+
+.popupWrap {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
