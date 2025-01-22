@@ -445,13 +445,12 @@ a {
         justify-content: center;
         max-width: 90%;
         margin: 0 5px;
-    }
+   }
 
-    .breadcrumb > li {
+   .breadcrumb > li {
         display: flex;
-        flex-wrap: wrap;
         gap: 5px;
-    }
+   }
 
     .breadcrumb li+li::before {
         content: none;
@@ -525,4 +524,65 @@ a {
         text-align: center;
         gap: 5px;
     }
+}
+
+@media only screen and (min-width: 835px) and (max-width: 1180px) {
+    h1 {
+        font-size: 24px;
+    }
+
+   .breadcrumb {
+        display: flex;
+        justify-content: center;
+        max-width: 90%;
+        margin: 0 5px;
+        gap: 5px;
+   }
+
+   .breadcrumb > li {
+        display: inline-block;
+   }
+
+   .breadcrumb li+li::before {
+        content: none;
+   }
+
+   .certificadosContainer {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 20px auto;
+   }
+
+   .htmlC, .css1, .css2, .javas1, .javas2, .biw, .git {
+        padding: 5px 10px;
+        width: auto;
+        max-width: 25%;
+        height: auto;
+   }
+
+   .htmlC p, .css1 p, .css2 p, .javas1 p, .javas2 p, .biw p, .git p {
+        margin: 20px auto;
+   }
+
+   .certbtn {
+        margin: 35px 30px auto;
+   }
+  
+   .imgSkills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+   }
+
+   .imgSkills img {
+        width: 48%;
+        max-width: 300px;
+        height: auto;
+        margin: 5px;
+        object-fit: contain;
+   }
 }
