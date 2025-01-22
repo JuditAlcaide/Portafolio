@@ -33,7 +33,7 @@ h3 {
     background-color: #D4ADF5;
     border-radius: 10px;
     border: 3px double #FFD700;
-    box-shadow: 0 0 10px, #FFD700;
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.5);
 }
 
 p {
@@ -288,4 +288,101 @@ a {
     display: flex;
     gap: 10px;
     justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+        padding: 5px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-left: 10px;
+        text-align: left;
+        padding: 5px 10px;
+        border-bottom: 2px solid #ccc;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    .head {
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .breadcrumb {
+        justify-content: center;
+        max-width: 90%;
+        margin: 0 5px;
+    }
+
+    .breadcrumb > li {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .breadcrumb li+li::before {
+        content: none;
+    }
+
+    .containerSM {
+        align-items: center;
+    }
+
+    .containerSM p {
+        font-size: 16px;
+        width: 100%;
+        padding: 12px 10px;
+    }
+
+    .containerSM img {
+        display: none;
+    }
+
+    .certificadosContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    .htmlC, .css1, .css2, .javas1, .javas2, .biw, .git {
+        width: 80%;
+        margin: 10px;
+    }
+
+    .htmlC p, .css1 p, .css2 p, .javas1 p, .javas2 p, .biw p, .git p {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .imgSkills img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 5px;
+    }
+
+    .popupWrap {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
 }
