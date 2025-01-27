@@ -295,6 +295,7 @@ a {
         overflow-x: hidden;
         padding: 5px;
         width: 90%;
+        margin: 0 auto;
     }
 
     h1 {
@@ -352,6 +353,14 @@ a {
         display: none;
     }
 
+    .projectsContainer {
+        width: 100%;
+    }
+
+    .mball p, .caos p, .mammaMia p {
+        font-size: 15px;
+    }
+
     .certificadosContainer {
         display: flex;
         flex-direction: column;
@@ -406,6 +415,11 @@ a {
         flex-direction: column;
         text-align: center;
         gap: 5px;
+        width: 90%;
+    }
+
+    .popupContent p {
+        font-size: 14px;
     }
 }
 
