@@ -90,7 +90,7 @@ a {
 
 .containerSM img {
     border-radius: 10px;
-    max-width: 80%;
+    width: 300px;
     height: auto;
     margin: 0 20px;
     padding: 0;
