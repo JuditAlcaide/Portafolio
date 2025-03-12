@@ -89,10 +89,10 @@ a {
 }
 
 .containerSM img {
-    border-radius: 10px;
-    width: 300px;
-    height: auto;
-    margin: 0 20px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 15px 20px;
     padding: 0;
 }
 
@@ -370,12 +370,12 @@ a {
         gap: 20px;
     }
 
-    .htmlC, .css1, .css2, .javas1, .javas2, .biw, .git {
+    .htmlC, .css1, .css2, .javas1, .javas2, .biw, .git, .react {
         width: 80%;
         margin: 10px;
     }
 
-    .htmlC p, .css1 p, .css2 p, .javas1 p, .javas2 p, .biw p, .git p {
+    .htmlC p, .css1 p, .css2 p, .javas1 p, .javas2 p, .biw p, .git p, .react p {
         font-weight: bold;
         font-size: 16px;
     }
@@ -493,12 +493,12 @@ a {
         gap: 20px;
     }
 
-    .htmlC, .css1, .css2, .javas1, .javas2, .biw, .git {
+    .htmlC, .css1, .css2, .javas1, .javas2, .biw, .git, .react {
         width: 80%;
         margin: 10px;
     }
 
-    .htmlC p, .css1 p, .css2 p, .javas1 p, .javas2 p, .biw p, .git p {
+    .htmlC p, .css1 p, .css2 p, .javas1 p, .javas2 p, .biw p, .git p, .react p {
         font-weight: bold;
         font-size: 20px;
     }
@@ -560,6 +560,11 @@ a {
         content: none;
    }
 
+   .containerSM img {
+        margin: 20px 10px;
+        padding: 20px 5px;
+   }
+
    .certificadosContainer {
         display: flex;
         align-items: center;
@@ -568,14 +573,14 @@ a {
         padding: 20px auto;
    }
 
-   .htmlC, .css1, .css2, .javas1, .javas2, .biw, .git {
+   .htmlC, .css1, .css2, .javas1, .javas2, .biw, .git, .react {
         padding: 5px 10px;
         width: auto;
         max-width: 25%;
         height: auto;
    }
 
-   .htmlC p, .css1 p, .css2 p, .javas1 p, .javas2 p, .biw p, .git p {
+   .htmlC p, .css1 p, .css2 p, .javas1 p, .javas2 p, .biw p, .git p, .react p {
         margin: 20px auto;
    }
 
